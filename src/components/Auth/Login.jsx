@@ -25,7 +25,7 @@ const Login = () => {
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-            className="text-white outline-none border-2 border-emerald-600 rounded-full py-3 px-5 placeholder:text-gray-400"
+            className="text-white outline-none border-2 border-emerald-600 rounded-full py-3 px-5 placeholder:text-gray-400 bg-transparent"
             type="email"
             placeholder="Enter Your Email"
           />
@@ -35,11 +35,11 @@ const Login = () => {
             onChange={(e) => {
               setPassword(e.target.value);
             }}
-            className="text-white outline-none mt-3 border-2 border-emerald-600 rounded-full py-3 px-5 placeholder:text-gray-400"
+            className="text-white outline-none mt-3 border-2 border-emerald-600 rounded-full py-3 px-5 placeholder:text-gray-400 bg-transparent"
             type="password"
             placeholder="Enter Your Password"
           />
-          <button className="text-white outline-none bg-emerald-600 mt-3  rounded-full py-3 px-5">
+          <button className="text-white outline-none bg-emerald-600 mt-6  rounded-full py-3 px-5 w-full">
             Log in
           </button>
         </form>
